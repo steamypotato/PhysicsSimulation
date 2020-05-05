@@ -1,0 +1,185 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  c85536;
+    Created on : Apr 21, 2018, 6:11:24 PM
+    Author     : BaconAndNachos
+*/
+.root{
+    -fx-background-color: c85536;
+}
+.white-label{
+
+    -fx-font-size: 18px;
+    -fx-font-family: "Comic Sans MS";
+        -fx-text-fill : white;
+}
+.text-field{
+    -fx-max-width : 150px;
+        -fx-background-color:#ffa07a; 
+        -fx-font-family: "Comic Sans MS";
+        
+}
+.rel-text-field{
+    -fx-max-width : 100px
+}
+.GridPane{
+    -fx-hgap : 30px;
+    -fx-vgap : 30px;
+    -fx-grid-lines-visible: false;
+    
+}
+.button{
+    -fx-background-color: #693d3d;
+    -fx-text-fill: #ffffff;
+    -fx-font-size : 20px;
+    -fx-font-family : "Comic Sans MS";
+    -fx-min-width : 125 ;
+    -fx-min-height : 50 ;
+    -fx-background-radius: 10;
+}
+.button:hover{
+    -fx-background-color: #46211a;
+}
+.label{
+    -fx-font-size: 20px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    
+}
+.slider{
+    -fx-show-tick-labels : true;
+    -fx-show-tick-marks : true;
+    -fx-color: #46211a;
+    -fx-text-fill: #693d3d;
+    -fx-tick-label-stroke: #693d3d;
+   
+}
+.bigger-label{
+    
+}
+.small-text-field{
+    -fx-max-width : 45px;
+}
+.check-box{
+      -fx-font-size: 14px;
+      -fx-text-fill: #ffffff;
+      -fx-color : #ffa07a;
+    -fx-font-family: "Comic Sans MS";
+}
+.list-view{
+    
+    -fx-min-height: 100;
+    -fx-max-height: 100;
+    
+    -fx-translate-x: 50;
+    -fx-translate-y: 50;
+    -fx-background-color: c85536;
+    -fx-font-family:"Comic Sans MS";
+    -fx-font-size : 14px;
+    -fx-stroke-width : 5px;
+}
+.list-view .list-cell:odd{
+    -fx-background-color:#ffa07a;
+   
+}
+.list-view .list-cell:even{
+    -fx-background-color:#f47442;
+}
+.list-cell:selected{
+    -fx-background-color: #693d3d;
+}
+.check-box .mark{
+    -fx-shape:
+       "M2,0L5,4L8,0L10,0L10,2L6,5L10,8L10,10L8,10L5,6L2,10L0,10L0,8L4,5L0,2L0,0Z";
+}
+.check-box:selected .mark {
+    -fx-background-color: #ffffff;
+}
+.vertical-slider{
+    -fx-orientation: vertical;
+    -fx-min-height:300;
+    -fx-max-height:300;
+    
+}
+ .chart-area-symbol { -fx-background-color: null, null; }
+    
+ 
+.default-color1.chart-area-symbol { 
+    -fx-background-color: #693d3d; 
+}
+ 
+
+    
+
+.default-color0.chart-series-area-fill { -fx-fill: null; }
+
+
+.area-lines{
+
+}
+
+.chart-legend-item-symbol{
+    -fx-background-radius: 0;
+    
+}
+.chart-series-line{
+ -fx-stroke: firebrick;
+}
+.rel-series-line{
+    -fx-stroke: #f47442;
+}
+.custom-series-line{
+    -fx-stroke-width: 5px;
+    -fx-stroke: royalblue;
+    
+}
+.axis-tick-mark{
+    -fx-stroke: #46211a;
+    
+}
+.axis{
+    -fx-tick-label-fill: white;
+}
+.chart-plot-background{
+    -fx-background-color: #ffa07a;
+}
+.black-area-chart-line{
+ -fx-stroke: #000000;
+-fx-fill: #ffa07a55;
+}
+.default-color0.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 2;
+}
+.default-color1.chart-series-area-line { -fx-stroke: #e9967a; }
+ 
+.default-color2.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}
+.default-color3.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}
+.default-color4.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}
+.default-color5.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}
+.default-color6.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}
+.default-color7.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}.default-color8.chart-series-area-line { 
+    -fx-stroke: #000000; 
+    -fx-stroke-width: 1;
+}
