@@ -29,6 +29,6 @@ The uniform nature of the periodic movement give the pure sinusoids that are sho
 
 The user enters a polynomial function along with the bounds of integration and the subdivisions to be used for integration. An approximate result will first be found using trapezoidal integration, where a trapezoid is made for each subdivision and the total integration area is computed as sum of areas of the trapezoidals. By chaning the subdivisions, the user can observe the change in the approximate area as it appraches the exact area, which is also computed as well as a relative error for demonstration purposes.
 
-![intGraph] (https://user-images.githubusercontent.com/55627338/81462074-0096a180-917e-11ea-9f42-24e5e4355220.PNG)
+![intGraph](https://user-images.githubusercontent.com/55627338/81462074-0096a180-917e-11ea-9f42-24e5e4355220.PNG)
 The area that is to be computed is highlighted, and the trapezoids to be used are computed as also drawn on the graph. Lastly, the user is given the ability to re-scale the graph to make the highlighted area bigger relative to the graph
 ## MacLauren Series
